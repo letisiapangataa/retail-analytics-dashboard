@@ -1,10 +1,10 @@
 # Retail Analytics Dashboard 🛍️
 
-This is an Applied Learning Project that implements an end-to-end analytics solution using Azure SQL and Power BI to visualize product performance and sales trends. 
+Applied Learning Project that implements an end-to-end analytics solution using Azure SQL and Power BI to visualize product performance and sales trends. 
 
 The following technical solution includes data cleaning pipelines built with Python and scheduled updates via Power Automate.
 
-## Project Structure
+### Project Structure
 ```
 - data/sample_data.csv : Contains sample data used for analysis, including product performance and sales information.
 - pipelines/data_cleaning_pipeline.py : Python script defining the data cleaning pipeline.
@@ -13,7 +13,7 @@ The following technical solution includes data cleaning pipelines built with Pyt
 - sql/create_tables.sql : SQL script for creating necessary tables in Azure SQL.
 - requirements.txt : Lists Python dependencies required for the project.
 ```
-## Setup (Please follow accordingly)
+### Setup (Please follow accordingly)
 
 1. Clone the repository to your local machine.
 2. Install the required Python packages listed in `requirements.txt` using pip:
@@ -25,7 +25,7 @@ The following technical solution includes data cleaning pipelines built with Pyt
 5. Use Power BI to open the `product_performance_report.pbix` file and connect it to the cleaned data.
 6. Configure the Power Automate flow in `schedule_update_flow.json` to automate data cleaning and report refreshing.
 
-## Rules
+### Rules
 
 - Ensure that the sample data is updated regularly for accurate analysis.
 - Modify the data cleaning pipeline as needed to accommodate changes in data structure.
