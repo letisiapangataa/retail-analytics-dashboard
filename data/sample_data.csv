@@ -1,0 +1,11 @@
+product_id,product_name,sales_amount,sales_date,performance_metric
+1,Product A,1500,2023-01-15,85
+2,Product B,2000,2023-01-16,90
+3,Product C,1200,2023-01-17,75
+4,Product D,1800,2023-01-18,88
+5,Product E,2200,2023-01-19,92
+6,Product F,1600,2023-01-20,80
+7,Product G,2100,2023-01-21,95
+8,Product H,1300,2023-01-22,78
+9,Product I,1900,2023-01-23,87
+10,Product J,2400,2023-01-24,93

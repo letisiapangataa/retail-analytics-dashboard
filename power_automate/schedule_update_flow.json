@@ -1,0 +1,32 @@
+{
+  "name": "Schedule Update Flow",
+  "description": "This flow schedules updates for the data cleaning pipeline and refreshes the Power BI report.",
+  "trigger": {
+    "type": "Recurrence",
+    "recurrence": {
+      "frequency": "Day",
+      "interval": 1
+    }
+  },
+  "actions": {
+    "Run_Data_Cleaning_Pipeline": {
+      "type": "Http",
+      "method": "POST",
+      "uri": "https://<your-azure-function-url>/api/data_cleaning_pipeline",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{}"
+    },
+    "Refresh_Power_BI_Report": {
+      "type": "Http",
+      "method": "POST",
+      "uri": "https://api.powerbi.com/v1.0/myorg/reports/<your-report-id>/refresh",
+      "headers": {
+        "Authorization": "Bearer <your-access-token>",
+        "Content-Type": "application/json"
+      },
+      "body": "{}"
+    }
+  }
+}
