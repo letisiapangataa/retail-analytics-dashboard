@@ -1,6 +1,8 @@
 # Retail Analytics Dashboard 🛍️
 
-This project implements an end-to-end analytics solution using Azure SQL and Power BI to visualize product performance and sales trends. The solution includes data cleaning pipelines built with Python and scheduled updates via Power Automate.
+This project implements an end-to-end analytics solution using Azure SQL and Power BI to visualize product performance and sales trends. 
+
+***The solution includes data cleaning pipelines built with Python and scheduled updates via Power Automate.***
 
 ## Project Structure
 ```
