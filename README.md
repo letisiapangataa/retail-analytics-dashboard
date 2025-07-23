@@ -1,4 +1,4 @@
-# Retail Analytics Dashboard 🛍️
+# Retail Analytics Dashboard
 
 Applied Learning Project that implements an end-to-end analytics solution using Azure SQL and Power BI to visualize product performance and sales trends. 
 
