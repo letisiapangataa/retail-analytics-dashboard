@@ -2,7 +2,7 @@
 
 This project implements an end-to-end analytics solution using Azure SQL and Power BI to visualize product performance and sales trends. The solution includes data cleaning pipelines built with Python and scheduled updates via Power Automate.
 
-## Project Structure ✨
+## Project Structure
 
 - **data/sample_data.csv**: Contains sample data used for analysis, including product performance and sales information.
 - **notebooks/data_cleaning.ipynb**: Jupyter notebook for data cleaning processes using Python.
@@ -12,7 +12,7 @@ This project implements an end-to-end analytics solution using Azure SQL and Pow
 - **sql/create_tables.sql**: SQL script for creating necessary tables in Azure SQL.
 - **requirements.txt**: Lists Python dependencies required for the project.
 
-## How-To-Setup ✨
+## How-To-Setup
 
 1. Clone the repository to your local machine.
 2. Install the required Python packages listed in `requirements.txt` using pip:
@@ -24,7 +24,7 @@ This project implements an end-to-end analytics solution using Azure SQL and Pow
 5. Use Power BI to open the `product_performance_report.pbix` file and connect it to the cleaned data.
 6. Configure the Power Automate flow in `schedule_update_flow.json` to automate data cleaning and report refreshing.
 
-## Guidelines ✨
+## Rules
 
 - Ensure that the sample data is updated regularly for accurate analysis.
 - Modify the data cleaning pipeline as needed to accommodate changes in data structure.
